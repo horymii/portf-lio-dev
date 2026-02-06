@@ -1,0 +1,27 @@
+.title-large {
+    font: var(--title-lg);
+}
+
+.title-medium {
+    font: var(--title-md);
+}
+
+.title-small {
+    font: var(--title-sm);
+}
+
+.subtitle-inconsolata {
+    font: var(--subtitle);
+}
+
+.text-medium-maven {
+    font: var(--text-md-maven);
+}
+
+.text-small-maven {
+    font: var(--text-sm-maven);
+}
+
+.color-red {
+  color: var(--red-color);
+}

@@ -1,13 +1,43 @@
 header {
     background-image: url(../assets/Background_Intro.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 750px;
+    background-size: contain;
+    min-height: 750px;
 }
 
-#intro {
-    display: flex;
-    align-items: center;
-    gap: 32px;
+.intro {
     padding-top: 120px;
+    max-width: 1040px;
+    margin-inline: auto;
+}
+
+.inner-intro-container {
+    margin-inline: auto;
+}
+
+.avatar {
+    position: relative;
+    margin: 8px;
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    .tag {
+        padding: 8px 16px;
+        font: var(--text-md-maven);
+        background-color: var(--gray-300);
+        color: var(--gray-500);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
 }

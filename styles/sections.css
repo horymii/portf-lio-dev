@@ -1,3 +1,5 @@
+/* ================= MY WORK ================= */
+
 #my-work {
   padding: 72px 24px 144px 24px;
 }
@@ -38,3 +40,41 @@
   color: var(--gray-200);
   margin: 0;
 }
+
+
+/* ================= MY SERVICES ================= */
+
+#my-services {
+  background-color: var(--gray-600);
+  padding: 88px 24px 120px;
+}
+
+#my-services #services {
+  margin-inline: auto;
+  padding-top: 56px;
+  max-width: 888px;
+
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+#my-services .card {
+   background-color: var(--gray-600);
+  border: 2px solid var(--gray-400);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  width: 280px;
+  
+}
+
+#my-services .card img {
+  padding-bottom: 20px;
+  max-width: 48px;
+}
+
+
+
+
+

@@ -1,0 +1,40 @@
+#my-work {
+  padding: 72px 24px 144px 24px;
+}
+
+#my-work #works {
+  padding-top: 56px;
+  margin-inline: auto;
+  max-width: 1040px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+#my-work .card {
+  text-align: left;
+  background-color: var(--gray-400);
+  padding: 12px 12px 17px;
+  border-radius: 12px;
+  border: 1.5px solid var(--gray-400);
+}
+
+#my-work .card:hover {
+  border: 1.5px solid var(--gray-300);
+  cursor: pointer;
+}
+
+#my-work .card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#my-work .card h4 {
+  padding: 24px 0 8px;
+}
+
+#my-work .card p {
+  color: var(--gray-200);
+  margin: 0;
+}

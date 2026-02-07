@@ -46,14 +46,18 @@ header {
 
 .caret-down {
     padding-top: 94px;
+    padding-bottom: 57px;
     color: var(--gray-300);
     img {
         width: 32px;
     }
 }
 
-
-
+p {
+    font: var(--text-sm-maven);
+    color: var(--gray-300);
+    margin-bottom: 80px;
+}
 
 
 

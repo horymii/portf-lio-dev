@@ -23,13 +23,12 @@
     --subtitle: 400 20px/120% var(--font-family-inconsolata);
 
     --text-md-maven: 400 16px/140% var(--font-family-maven);
-    --text-sm-maven: 500 14px/140% var(--font-family-maven);
+    --text-sm-maven: 400 14px/140% var(--font-family-maven);
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .container {
@@ -61,8 +60,14 @@ h2 {
     margin-bottom: 20px;
 }
 
-p {
-    color: var(--gray-300);
-    font: var(--text-sm-maven);
-    margin-bottom: 80px;
+h3 {
+    color: var(--gray-100);
+    font: var(--title-md);
+    margin-bottom: 8px;
+}
+
+h4 {
+    color: var(--gray-100);
+    font: var(--title-sm);
+    margin-bottom: 8px;
 }

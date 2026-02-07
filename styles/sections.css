@@ -74,7 +74,52 @@
   max-width: 48px;
 }
 
+#contact {
+  padding-top: 128px;
+  background-image: url(../assets/Background_Contacts.png);
+  height: 787px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+#contact #buttons {
+  max-width: 400px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
+/* botão */
+#contact #buttons .button {
+  width: 400px;
+  height: 68px;
+
+  padding: 0 20px;
+  background-color: var(--gray-400);
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1.5px solid var(--gray-400);
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* conteúdo interno do botão (ícone + texto) */
+#contact #buttons .button > span {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--gray-300);
+}
+
+/* opcional: hover bonito */
+#contact #buttons .button:hover {
+  border-color: var(--purple);
+  background-color: var(--gray-500);
+}
 
 

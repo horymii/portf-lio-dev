@@ -122,4 +122,8 @@
   background-color: var(--gray-500);
 }
 
+#contact p {
+  padding-block: 8px 48px;
+}
+
 
